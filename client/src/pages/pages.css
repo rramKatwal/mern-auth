@@ -1,0 +1,116 @@
+/* register page */
+.register-form {
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  padding: 4px;
+  box-shadow: 10px 10px 9px 2px black;
+  margin-bottom: 20px;
+}
+.register-form h1 {
+  color: aliceblue;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.register-form .btn {
+  letter-spacing: 3px;
+  padding: 12px;
+}
+.inputbox {
+  position: relative;
+  width: 350px;
+  margin-bottom: 10px;
+}
+.inputbox input {
+  width: 100%;
+  padding: 10px;
+  background: gray;
+  outline: none;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: 0.5s;
+}
+.inputbox label {
+  position: absolute;
+  padding: 11px;
+  left: 10px;
+  margin-top: 2px;
+  color: aliceblue;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.inputbox label .reg-icon {
+  margin-right: 5px;
+}
+
+.inputbox input:valid ~ label,
+.inputbox input:focus ~ label {
+  transform: translateX(10px) translateY(-14px);
+  background: gray;
+  color: aqua;
+  border-left: 1px solid aqua;
+  border-right: 1px solid aqua;
+  font-size: 1em;
+  padding: 0 11px;
+  letter-spacing: 4px;
+  margin-bottom: 0px;
+}
+
+.inputbox input:valid,
+.inputbox input:focus {
+  border: 1px solid aqua;
+}
+
+.upload-profile {
+  width: 350px;
+
+  margin-bottom: 10px;
+}
+.upload-profile label {
+  padding: 10px;
+  border-radius: 10px;
+}
+.img-preview {
+  max-width: 100%;
+  text-align: end;
+}
+
+.img-preview img {
+  max-width: 100%;
+  border-radius: 30px;
+}
+.img-preview p {
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+.img-preview a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+/* login form */
+.login-form p {
+  color: aliceblue;
+  margin-bottom: 0px;
+}
+
+.login-form a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+/* userpage */
+.verticalline {
+  box-shadow: 10px 10px 9px 2px black;
+}
+
+.info {
+  font-size: 2rem;
+  margin-top: 15px;
+}
+
+/* resetform */
+.reset {
+  margin-left: 8px;
+}

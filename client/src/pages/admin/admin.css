@@ -1,0 +1,10 @@
+.profile-image {
+  position: relative;
+}
+.profile-icon {
+  position: absolute;
+  font-size: 24px;
+  top: 250px;
+  left: 250px;
+  color: aliceblue;
+}

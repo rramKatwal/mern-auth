@@ -1,0 +1,45 @@
+/* ==================================
+================ navbar ===============
+================================= */
+.mynavbar {
+  margin: 1px 6px 1px 3px;
+
+  background: rgb(97, 96, 96);
+  border-radius: 0 0 5px 5px;
+  border-bottom: 2px solid black;
+  box-shadow: 6px 6px 6px #3c3535;
+}
+.mynavbar .navbar-brand {
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.mynavbar a {
+  color: aliceblue;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+.mynavbar a:hover {
+  color: aqua;
+}
+.dropdown-menu {
+  background: gray;
+}
+.profile-picture img {
+  margin-top: 10px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+/* ==================================
+================ footer ===============
+================================= */
+.myfooter {
+  margin: 20px 5px 5px 5px;
+  background: rgb(97, 90, 90);
+  color: aliceblue;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid rgb(56, 53, 53);
+  border-radius: 20px 20px 0 0;
+}
